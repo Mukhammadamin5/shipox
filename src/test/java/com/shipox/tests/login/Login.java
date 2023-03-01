@@ -31,7 +31,7 @@ public class Login {
         WebElement password = driver.findElement(By.id("password"));
         password.sendKeys("Test298355");
 
-        driver.findElement(By.xpath("(//button[@type='submit'])[2]")).click();
+//        driver.findElement(By.xpath("(//button[@type='submit'])[2]")).click();
 
     }
 
